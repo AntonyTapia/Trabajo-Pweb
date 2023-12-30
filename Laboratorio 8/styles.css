@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Single+Day&family=Vina+Sans&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+.header{
+    background-color: rgb(240, 14, 86);
+    font-family: 'Vina Sans', sans-serif;
+
+    font-size: 3rem;
+    text-align: left;
+    letter-spacing: 5px;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+
+}
+.header p,
+.header img {
+    padding: 1rem;
+    display: inline-block;
+    vertical-align: middle;
+}
+.header img{
+    position: relative;
+    left: 50px;
+}
+.container {
+    margin-top: 4rem;
+    width: 50%;
+    display: block;
+    margin: auto;
+    text-align: center;
+    background-color: #b2b2e5;
+    border-radius: 4rem;
+                                                                                
+
+}
+.container h2{
+    font-family: 'Single Day', cursive;
+    text-decoration-line: underline;
+    font-size: 3rem;
+}
+
+input[type="text"]{
+    display: block;
+    margin: auto;
+    margin-bottom: 3rem;
+    font-size: 16px; 
+    width: 80%;
+    border-radius: 4rem;
+    transition: font-size 0.5s ease; /* Añade la transición */
+
+}
+input[type="submit"]{
+    display: block;
+    margin: auto;
+    font-family: 'Vina Sans', sans-serif;
+    font-size: 30px;
+    padding: 10px;
+    background-color: palevioletred;
+}
+input[type="text"]:focus{
+    font-size: 20px; 
+    height: 10%;
+}
+
+
