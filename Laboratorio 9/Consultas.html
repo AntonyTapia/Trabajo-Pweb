@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Consultas Universidades</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="nombre">
+            <h4>Trabajo de: Tapia Huamantuma Antony Juan</h4>
+        </div>
+        <div class="bloque">
+            <h1>Consultas sobre Universidades licenciadas</h1><hr><br>
+            <div class="consultar">
+                <h3>Sugerencia: Rellenar todos los espacios y tener en cuenta tildes.</h3>
+                <form method="post" action="cgi-bin/consultas.cgi">
+                    <table>
+                        <tr>
+                            <td><label for="nombre">Nombre Universidad:</label></td>
+                            <td><input type="text" id="nombre" name="nombreU" placeholder="Ingresar texto" value=""></td>
+                        </tr>
+                        <tr>
+                            <td><label for="periodo">Periodo Licenciamiento:</label></td>
+                            <td><input type="text" id="periodo" name="periodoL" placeholder="Ingresar texto" value=""></td>
+                        </tr>
+                        <tr>
+                            <td><label for="departamento">Departamento Local:</label></td>
+                            <td><input type="text" id="departamento" name="departamentoL" placeholder="Ingresar texto" value=""></td>
+                        </tr>
+                        <tr>
+                            <td><label for="denominacion">Denominación Programa:</label></td>
+                            <td><input type="text" id="denominacion" name="denominacionP" placeholder="Ingresar texto" value=""></td>
+                        </tr>
+                    </table>
+                    <input type="submit" value="Consultar">
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
